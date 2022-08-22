@@ -1,0 +1,1 @@
+rviz -f velodyne
