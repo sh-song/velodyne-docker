@@ -1,8 +1,0 @@
-prefix=/workspace/catkin_ws/devel
-
-Name: angles
-Description: Description of angles
-Version: 1.9.13
-Cflags: -I/workspace/catkin_ws/src/angles/angles/include
-Libs: -L${prefix}/lib 
-Requires: 
