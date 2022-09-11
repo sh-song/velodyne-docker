@@ -1,1 +1,1 @@
-docker build -t velodyne .
+docker build -t velodyne-docker .

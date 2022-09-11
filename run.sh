@@ -4,4 +4,5 @@ docker run --rm -it \
 -e DISPLAY=unix$DISPLAY \
 --net=host \
 --privileged \
-velodyne 
+--name velodyne-docker \
+velodyne-docker 

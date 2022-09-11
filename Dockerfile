@@ -6,12 +6,9 @@ RUN \
 	apt install -y ros-melodic-pcl-ros && \
 	apt install -y ros-melodic-cv-bridge && \
 	apt install -y libyaml-cpp-dev && \
-	apt install -y libpcap-dev
+	apt install -y libpcap-dev && \
+	apt install -y ros-melodic-angles
 
 RUN mkdir /workspace
 WORKDIR /workspace
-
-RUN /bin/bash -c '. /opt/ros/melodic/setup.bash; cd /workspace/catkin_ws; catkin_make'
-RUN echo "source /workspace/catkin_ws/devel/setup.bash" >> ~/.bashrc
-RUN echo "sh run_lidar.sh" >> ~/.bashrc
-
+RUN echo "./run_velodyne.sh" >> ~/.bashrc
