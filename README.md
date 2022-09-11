@@ -1,4 +1,4 @@
-# vlp16_docker
+# velodyne-docker
 ## How to use
 1. git clone --recursive https://github.com/sh-song/velodyne-docker.git
 2. cd velodyne-docker
