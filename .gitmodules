@@ -1,0 +1,12 @@
+[submodule "workspace/catkin_ws/src/angles"]
+	path = workspace/catkin_ws/src/angles
+	url = https://github.com/ros/angles.git
+[submodule "workspace/catkin_ws/src/diagnostics"]
+	path = workspace/catkin_ws/src/diagnostics
+	url = https://github.com/ros/diagnostics.git
+[submodule "workspace/catkin_ws/src/roslint"]
+	path = workspace/catkin_ws/src/roslint
+	url = https://github.com/ros/roslint.git
+[submodule "workspace/catkin_ws/src/velodyne"]
+	path = workspace/catkin_ws/src/velodyne
+	url = https://github.com/ros-drivers/velodyne.git

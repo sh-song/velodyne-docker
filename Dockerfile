@@ -8,9 +8,10 @@ RUN \
 	apt install -y libyaml-cpp-dev && \
 	apt install -y libpcap-dev
 
-
-
 RUN mkdir /workspace
 WORKDIR /workspace
-EXPOSE 1234
-	
+
+RUN /bin/bash -c '. /opt/ros/melodic/setup.bash; cd /workspace/catkin_ws; catkin_make'
+RUN echo "source /workspace/catkin_ws/devel/setup.bash" >> ~/.bashrc
+RUN echo "sh run_lidar.sh" >> ~/.bashrc
+
